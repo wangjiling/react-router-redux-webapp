@@ -1,0 +1,19 @@
+.footer{
+  color: #CED1D3;
+  height: 90px;
+  line-height: 90px;
+  background-color: #1E2327;
+  text-align: center;
+  clear: both;
+}
+
+.footerContainer{
+  display: inline-block;
+  vertical-align: middle;
+  width: 240px;
+  height: 34px;
+}
+
+.footerItem{
+  line-height: 17px;
+}

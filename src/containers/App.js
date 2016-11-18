@@ -4,6 +4,9 @@
  *          This modifications only run once when the generator is invoked - if
  *          you edit them, they are not updated again.
  */
+require('normalize.css/normalize.css');
+require('styles/Base.css');
+
 import React, {
   Component,
   PropTypes
@@ -11,15 +14,17 @@ import React, {
 import { login } from '../actions/';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import Main from '../components/Main';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 /* Populated by react-webpack-redux:reducer */
 class App extends Component {
   render() {
     const {actions, user} = this.props;
     return (
       <div>
-        <Main />
+        <Header />
         {this.props.children}
+        <Footer/>
       </div>
     );
   }

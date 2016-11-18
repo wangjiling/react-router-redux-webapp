@@ -1,8 +1,8 @@
 'use strict';
 
-import React, { PropTypes } from 'react';
+require('styles/Self.css');
 
-require('styles//Self.css');
+import React, { PropTypes } from 'react';
 
 class SelfComponent extends React.Component {
   render() {

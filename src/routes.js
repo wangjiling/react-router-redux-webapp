@@ -1,4 +1,4 @@
-import Index from './containers/routes/Index';
+import Login from './containers/routes/Login';
 import Self from './containers/routes/Self';
 import App from './containers/App';
 
@@ -6,10 +6,10 @@ const routes = [
   { path: '/',
     component: App,
     childRoutes: [
-      { path: 'example',
-        component: Index
+      { path: 'login',
+        component: Login
       },
-      { path: 'example/self',
+      { path: 'self',
         component: Self
       }
     ]

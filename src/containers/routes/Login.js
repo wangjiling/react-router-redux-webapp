@@ -7,8 +7,6 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import LoginComponent from '../../components/LoginComponent';
 
-require('styles/routes/Index.css');
-
 class Index extends React.Component {
   render() {
     return (

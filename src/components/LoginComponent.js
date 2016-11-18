@@ -1,17 +1,17 @@
 'use strict';
 
+require('styles/Login.css');
+
 import React, {
   PropTypes
 } from 'react';
 import { Link } from 'react-router';
 
-require('styles//Login.css');
-
 class LoginComponent extends React.Component {
   render() {
     let elem = <button onClick={this.props.login}>Login</button>;
     if(this.props.loggedIn) {
-      elem = <Link to='/example/self'>Member Area</Link>;
+      elem = <Link to='/self'>Member Area</Link>;
     }
 
     return (
