@@ -1,8 +1,5 @@
 # webapp with react-router-redux
 
-
-#
-
 install modules
 # npm install
 
