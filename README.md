@@ -1,14 +1,14 @@
-webapp with react-router-redux
+# webapp with react-router-redux
 
 
 #
 
-# install modules
-npm install
+install modules
+# npm install
 
-#dev env
-npm start
+dev env
+# npm start
 
 
-#build
-npm run dist
+build
+# npm run dist

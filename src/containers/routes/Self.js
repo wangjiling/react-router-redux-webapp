@@ -13,7 +13,7 @@ class Self extends Component {
   }
 }
 
-self.propTypes = {
+Self.propTypes = {
   actions: PropTypes.object.isRequired
 };
 

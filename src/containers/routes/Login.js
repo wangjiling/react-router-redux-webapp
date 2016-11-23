@@ -7,7 +7,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import LoginComponent from '../../components/LoginComponent';
 
-class Index extends React.Component {
+class Login extends React.Component {
   render() {
     return (
       <LoginComponent
@@ -18,7 +18,7 @@ class Index extends React.Component {
   }
 }
 
-Index.displayName = 'RoutesIndex';
+Login.displayName = 'RoutesLogin';
 
 function mapStateToProps(state) {
   const props = { user: state.user };
@@ -31,4 +31,4 @@ function mapDispatchToProps(dispatch) {
   return actionMap;
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Index);
+export default connect(mapStateToProps, mapDispatchToProps)(Login);
